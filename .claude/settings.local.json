@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Find F:\\\\LIT_ANDROID\\\\aplicacaoMenuAutomatico\\\\app\\\\src\\\\main\\\\java -type f -name \"*.kt\")",
+      "PowerShell(F:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe install -r \"F:\\\\LIT_ANDROID\\\\EntradaFornecimento\\\\app\\\\build\\\\outputs\\\\apk\\\\debug\\\\app-debug.apk\" 2>&1)",
+      "PowerShell(F:\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe install -r \"F:\\\\LIT_ANDROID\\\\aplicacaoMenuAutomatico\\\\app\\\\build\\\\outputs\\\\apk\\\\debug\\\\app-debug.apk\" 2>&1)"
+    ]
+  }
+}

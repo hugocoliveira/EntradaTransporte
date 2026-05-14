@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Manifest exclusivo do build DEBUG.
+    Adiciona intent-filter LAUNCHER para que o Android Studio consiga rodar o app diretamente.
+    No build RELEASE este arquivo não existe, então o ícone permanece oculto no dispositivo.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
