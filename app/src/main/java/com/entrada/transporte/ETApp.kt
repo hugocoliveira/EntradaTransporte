@@ -1,6 +1,7 @@
 package com.entrada.transporte
 
 import android.app.Application
+import com.entrada.transporte.BuildConfig
 import com.updater.lib.AppUpdateChecker
 import com.updater.lib.UpdateConfig
 
@@ -23,7 +24,7 @@ class ETApp : Application() {
                 githubOwner = "hugocoliveira",
                 githubRepo  = "EntradaTransporte",
                 branch      = "master",
-                githubToken = "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"
+                githubToken = BuildConfig.GITHUB_TOKEN.takeIf { it.isNotEmpty() }
             )
         )
     }
