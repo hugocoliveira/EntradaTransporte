@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.updater.lib" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+5-->INJECTED
+5-->INJECTED
+6
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:4:5-67
+7-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:4:22-64
+8    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+8-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:5:5-83
+8-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:5:22-80
+9    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+9-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:6:5-77
+9-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:6:22-74
+10    <uses-permission
+10-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:7:5-8:38
+11        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+11-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:7:22-78
+12        android:maxSdkVersion="28" />
+12-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:8:9-35
+13
+14    <application>
+14-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:10:5-31:19
+15        <receiver
+15-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:12:9-19:20
+16            android:name="com.updater.lib.ApkDownloadReceiver"
+16-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:13:13-63
+17            android:exported="false" >
+17-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:14:13-37
+18            <intent-filter>
+18-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:15:13-18:29
+19                <action android:name="com.updater.lib.DOWNLOAD_APK" />
+19-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:16:17-71
+19-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:16:25-68
+20                <action android:name="com.updater.lib.DISMISS_UPDATE" />
+20-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:17:17-73
+20-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:17:25-70
+21            </intent-filter>
+22        </receiver>
+23
+24        <provider
+24-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:21:9-29:20
+25            android:name="androidx.core.content.FileProvider"
+25-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:22:13-62
+26            android:authorities="${applicationId}.updater.provider"
+26-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:23:13-68
+27            android:exported="false"
+27-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:24:13-37
+28            android:grantUriPermissions="true" >
+28-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:25:13-47
+29            <meta-data
+29-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:26:13-28:62
+30                android:name="android.support.FILE_PROVIDER_PATHS"
+30-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:27:17-67
+31                android:resource="@xml/updater_file_paths" />
+31-->F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\AndroidManifest.xml:28:17-59
+32        </provider>
+33    </application>
+34
+35</manifest>

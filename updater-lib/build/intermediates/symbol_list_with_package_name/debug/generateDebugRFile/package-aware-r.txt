@@ -1,0 +1,2 @@
+com.updater.lib
+xml updater_file_paths

@@ -1,0 +1,8 @@
+com.updater.lib.updater-lib-pngs-0 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\build\generated\res\pngs\debug
+com.updater.lib.updater-lib-updated_navigation_xml-1 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\build\generated\updated_navigation_xml\debug
+com.updater.lib.updater-lib-mergeDebugResources-2 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.updater.lib.updater-lib-mergeDebugResources-3 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.updater.lib.updater-lib-debug-4 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\build\intermediates\merged_res\debug\mergeDebugResources
+com.updater.lib.updater-lib-debug-5 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\build\intermediates\packaged_res\debug\packageDebugResources
+com.updater.lib.updater-lib-debug-6 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\debug\res
+com.updater.lib.updater-lib-main-7 F:\LIT_ANDROID\aplicacaoMenuAutomatico\updater-lib\src\main\res

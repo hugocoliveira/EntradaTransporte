@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "EntradaTransporte"
 include(":app")
+
+include(":updater-lib")
+project(":updater-lib").projectDir = File("updater-lib")
