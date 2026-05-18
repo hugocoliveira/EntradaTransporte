@@ -1,5 +1,0 @@
-com.entrada.transporte
-string app_name
-style Theme_EntradaTransporte
-xml backup_rules
-xml data_extraction_rules

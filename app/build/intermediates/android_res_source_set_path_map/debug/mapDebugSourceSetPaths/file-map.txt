@@ -1,7 +1,0 @@
-com.entrada.transporte.app-pngs-0 F:\LIT_ANDROID\EntradaTransporte\app\build\generated\res\pngs\debug
-com.entrada.transporte.app-updated_navigation_xml-1 F:\LIT_ANDROID\EntradaTransporte\app\build\generated\updated_navigation_xml\debug
-com.entrada.transporte.app-packageDebugResources-2 F:\LIT_ANDROID\EntradaTransporte\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.entrada.transporte.app-packageDebugResources-3 F:\LIT_ANDROID\EntradaTransporte\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.entrada.transporte.app-debug-4 F:\LIT_ANDROID\EntradaTransporte\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.entrada.transporte.app-debug-5 F:\LIT_ANDROID\EntradaTransporte\app\src\debug\res
-com.entrada.transporte.app-main-6 F:\LIT_ANDROID\EntradaTransporte\app\src\main\res
