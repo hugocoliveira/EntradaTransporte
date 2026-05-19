@@ -28,6 +28,13 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Bloqueia abertura direta: só aceita lançamentos vindos do MenuAutomatico
+        if (intent.getStringExtra("origem") != PACKAGE_APP_CHAMADOR) {
+            finishAndRemoveTask()
+            return
+        }
+
         enableEdgeToEdge()
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
