@@ -1,6 +1,1 @@
-{
-  "versionCode": 4,
-  "versionName": "1.4",
-  "apkUrl": "https://github.com/hugocoliveira/EntradaTransporte/releases/download/v1.4/app-release.apk",
-  "releaseNotes": "Adiciona campo de leitura de QR Code e codigo de barras"
-}
+﻿{"versionCode":5,"versionName":"1.5","apkUrl":"https://github.com/hugocoliveira/EntradaTransporte/releases/download/v1.5/app-release.apk","releaseNotes":"perf: abiFilters arm64/arm32."}
